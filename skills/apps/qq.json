@@ -1,0 +1,53 @@
+{
+  "id": "qq",
+  "aliases": ["QQ", "qq", "腾讯QQ", "QQ for Mac"],
+  "display_name": "QQ",
+  "layout": "常见布局：联系人/会话列表 + 聊天窗口；聊天窗口底部为输入区。Mac 菜单栏名为「QQ」。",
+  "skills": [
+    {
+      "id": "send_message",
+      "title": "发送聊天消息",
+      "when": "在 QQ 会话中发送文字",
+      "steps": [
+        "确认聊天窗口标题为目标好友/群",
+        "点击输入框",
+        "type 文本",
+        "按当前「发送消息」快捷键发送"
+      ],
+      "rules": [
+        "【Mac 默认常见】Return = 发送；换行多为 Command+Return 或 Control+Return（以偏好设置为准）",
+        "可在：菜单栏 QQ → 偏好设置 → 聊天 →「发送消息」下拉框中查看/修改（Return / Command+Return / Control+Return）",
+        "Windows 版历史上常见 Ctrl+Enter 发送或 Enter 发送，本机以设置页为准",
+        "若 Return 只换行不发送，改用 hotkey [\"command\",\"return\"] 再试",
+        "输入框仍有全文且消息列表无新气泡 = 未发送，禁止 done"
+      ]
+    },
+    {
+      "id": "open_chat",
+      "title": "打开会话",
+      "when": "找好友或群并打开聊天",
+      "steps": [
+        "在会话/联系人列表搜索或滚动定位",
+        "双击或单击打开聊天窗口",
+        "确认窗口标题正确"
+      ],
+      "rules": [
+        "成功标准：出现独立聊天窗或主窗右侧聊天区，底部可输入"
+      ]
+    },
+    {
+      "id": "search_contact",
+      "title": "搜索联系人",
+      "when": "按昵称/备注查找",
+      "steps": [
+        "点击主界面搜索框",
+        "type 关键字",
+        "在结果中点击好友/群"
+      ],
+      "rules": [
+        "结果可能含聊天记录与联系人，优先点联系人/群条目"
+      ]
+    }
+  ],
+  "checklist_before_done": "发送完成前须确认消息气泡已出现；若输入框仍显示待发全文，按偏好设置中的发送快捷键再发一次。"
+}

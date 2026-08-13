@@ -1,0 +1,16 @@
+{
+  "id": "example_app",
+  "aliases": ["ExampleApp"],
+  "display_name": "示例应用",
+  "layout": "简述主界面分区。",
+  "skills": [
+    {
+      "id": "example_skill",
+      "title": "示例技能",
+      "when": "何时使用",
+      "steps": ["步骤 1", "步骤 2"],
+      "rules": ["关键快捷键 / 易错点"]
+    }
+  ],
+  "checklist_before_done": "完成前自检条件。"
+}
